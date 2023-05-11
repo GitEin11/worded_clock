@@ -2,11 +2,14 @@
 
 worded clock based on this work https://github.com/digitalformula/qclocktwo but instead of being updated by multiples of 5 and puzzling over the words on what the actual time is, this one that I made updates every minute
 
-1. Install conky >> sudo apt install conky
-
+1. Install conky
+```
+sudo apt install conky
+```
 2. run this two conky script
+```
 conky -p 1 -c /PATH_TO_THIS_FILE/conky1 & conky -p 1 -c /PATH_TO_THIS_FILE/conky2 & exit
-
+```
 for window user install rainmeter and use "Word clock.ini"
 
 I made the conky script seperately, for some reason if its combined to 1 file, it glitches
