@@ -1,0 +1,325 @@
+background no
+own_window yes
+own_window_type normal
+own_window_class Conky
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+alignment br
+gap_x 16
+gap_y 72
+use_xft yes
+xftfont DejaVu Sans Mono:size=23
+xftalpha 0.1
+update_interval 1.0
+uppercase yes
+double_buffer yes
+own_window_argb_visual yes
+own_window_argb_value 0
+draw_shades yes
+default_shade_color 000000
+default_color F9FF6B
+color1 2d2d2d
+TEXT
+
+
+${alignc}\
+${if_match ${exec date +"%M"} == 2}${color}\
+${else}${if_match ${exec date +"%M"} == 10}${color}\
+${else}${if_match ${exec date +"%M"} == 12}${color}\
+${else}${if_match ${exec date +"%M"} == 22}${color}\
+${else}${if_match ${exec date +"%M"} == 32}${color}\
+${else}${if_match ${exec date +"%M"} == 42}${color}\
+${else}${if_match ${exec date +"%M"} == 52}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}${endif}T \
+${color1}R \
+${if_match ${exec date +"%M"} == 2}${color}\
+${else}${if_match ${exec date +"%M"} == 12}${color}\
+${else}${if_match ${exec date +"%M"} == 22}${color}\
+${else}${if_match ${exec date +"%M"} == 32}${color}\
+${else}${if_match ${exec date +"%M"} == 42}${color}\
+${else}${if_match ${exec date +"%M"} == 52}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}W \
+${color1}C \
+${if_match ${exec date +"%M"} == 2}${color}\
+${else}${if_match ${exec date +"%M"} == 22}${color}\
+${else}${if_match ${exec date +"%M"} == 32}${color}\
+${else}${if_match ${exec date +"%M"} == 42}${color}\
+${else}${if_match ${exec date +"%M"} == 52}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}O \
+${color1}\
+${if_match ${exec date +"%M"} == 10}${color}\
+${else}${if_match ${exec date +"%M"} == 11}${color}\
+${else}${if_match ${exec date +"%M"} == 12}${color}\
+${else}${endif}${endif}${endif}E \
+${if_match ${exec date +"%M"} == 1}${color}\
+${else}${if_match ${exec date +"%M"} == 21}${color}\
+${else}${if_match ${exec date +"%M"} == 31}${color}\
+${else}${if_match ${exec date +"%M"} == 41}${color}\
+${else}${if_match ${exec date +"%M"} == 51}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}O \
+${if_match ${exec date +"%M"} == 11}${color}\
+${else}${color1}${endif}L \
+${if_match ${exec date +"%M"} == 12}${color}\
+${else}${color1}${endif}L \
+${if_match ${exec date +"%M"} == 11}${color}\
+${else}${color1}${endif}E \
+${if_match ${exec date +"%M"} == 1}${color}\
+${else}${if_match ${exec date +"%M"} == 10}${color}\
+${else}${if_match ${exec date +"%M"} == 21}${color}\
+${else}${if_match ${exec date +"%M"} == 31}${color}\
+${else}${if_match ${exec date +"%M"} == 41}${color}\
+${else}${if_match ${exec date +"%M"} == 51}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}N \
+${if_match ${exec date +"%M"} == 11}${color}\
+${else}${if_match ${exec date +"%M"} == 12}${color}\
+${else}${color1}${endif}${endif}V \
+${color1}S \
+${if_match ${exec date +"%M"} == 11}${color}\
+${else}${if_match ${exec date +"%M"} == 12}${color}\
+${else}${color1}${endif}${endif}E \
+${if_match ${exec date +"%M"} == 1}${color}\
+${else}${if_match ${exec date +"%M"} == 21}${color}\
+${else}${if_match ${exec date +"%M"} == 31}${color}\
+${else}${if_match ${exec date +"%M"} == 41}${color}\
+${else}${if_match ${exec date +"%M"} == 51}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}E \
+${if_match ${exec date +"%M"} == 11}${color}\
+${else}${color1}${endif}N \
+
+${alignc}\
+${if_match ${exec date +"%M"} == 6}${color}\
+${else}${if_match ${exec date +"%M"} == 7}${color}\
+${else}${if_match ${exec date +"%M"} == 16}${color}\
+${else}${if_match ${exec date +"%M"} == 26}${color}\
+${else}${if_match ${exec date +"%M"} == 36}${color}\
+${else}${if_match ${exec date +"%M"} == 46}${color}\
+${else}${if_match ${exec date +"%M"} == 56}${color}\
+${else}${if_match ${exec date +"%M"} == 17}${color}\
+${else}${if_match ${exec date +"%M"} == 27}${color}\
+${else}${if_match ${exec date +"%M"} == 37}${color}\
+${else}${if_match ${exec date +"%M"} == 47}${color}\
+${else}${if_match ${exec date +"%M"} == 57}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}S \
+${if_match ${exec date +"%M"} == 5}${color}\
+${else}${if_match ${exec date +"%M"} == 25}${color}\
+${else}${if_match ${exec date +"%M"} == 35}${color}\
+${else}${if_match ${exec date +"%M"} == 45}${color}\
+${else}${if_match ${exec date +"%M"} == 55}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}F \
+${if_match ${exec date +"%M"} == 8}${color}\
+${else}${if_match ${exec date +"%M"} == 18}${color}\
+${else}${if_match ${exec date +"%M"} == 28}${color}\
+${else}${if_match ${exec date +"%M"} == 38}${color}\
+${else}${if_match ${exec date +"%M"} == 48}${color}\
+${else}${if_match ${exec date +"%M"} == 58}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}E \
+${if_match ${exec date +"%M"} == 7}${color}\
+${else}${if_match ${exec date +"%M"} == 17}${color}\
+${else}${if_match ${exec date +"%M"} == 27}${color}\
+${else}${if_match ${exec date +"%M"} == 37}${color}\
+${else}${if_match ${exec date +"%M"} == 47}${color}\
+${else}${if_match ${exec date +"%M"} == 57}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}E \
+${if_match ${exec date +"%M"} == 5}${color}\
+${else}${if_match ${exec date +"%M"} == 25}${color}\
+${else}${if_match ${exec date +"%M"} == 35}${color}\
+${else}${if_match ${exec date +"%M"} == 45}${color}\
+${else}${if_match ${exec date +"%M"} == 55}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}I \
+${if_match ${exec date +"%M"} == 6}${color}\
+${else}${if_match ${exec date +"%M"} == 8}${color}\
+${else}${if_match ${exec date +"%M"} == 16}${color}\
+${else}${if_match ${exec date +"%M"} == 26}${color}\
+${else}${if_match ${exec date +"%M"} == 36}${color}\
+${else}${if_match ${exec date +"%M"} == 46}${color}\
+${else}${if_match ${exec date +"%M"} == 56}${color}\
+${else}${if_match ${exec date +"%M"} == 18}${color}\
+${else}${if_match ${exec date +"%M"} == 28}${color}\
+${else}${if_match ${exec date +"%M"} == 38}${color}\
+${else}${if_match ${exec date +"%M"} == 48}${color}\
+${else}${if_match ${exec date +"%M"} == 58}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}I \
+${if_match ${exec date +"%M"} == 5}${color}\
+${else}${if_match ${exec date +"%M"} == 7}${color}\
+${else}${if_match ${exec date +"%M"} == 25}${color}\
+${else}${if_match ${exec date +"%M"} == 35}${color}\
+${else}${if_match ${exec date +"%M"} == 45}${color}\
+${else}${if_match ${exec date +"%M"} == 55}${color}\
+${else}${if_match ${exec date +"%M"} == 17}${color}\
+${else}${if_match ${exec date +"%M"} == 27}${color}\
+${else}${if_match ${exec date +"%M"} == 37}${color}\
+${else}${if_match ${exec date +"%M"} == 47}${color}\
+${else}${if_match ${exec date +"%M"} == 57}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}V \
+${color1}Z \
+${if_match ${exec date +"%M"} == 8}${color}\
+${else}${if_match ${exec date +"%M"} == 18}${color}\
+${else}${if_match ${exec date +"%M"} == 28}${color}\
+${else}${if_match ${exec date +"%M"} == 38}${color}\
+${else}${if_match ${exec date +"%M"} == 48}${color}\
+${else}${if_match ${exec date +"%M"} == 58}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}G \
+${if_match ${exec date +"%M"} == 5}${color}\
+${else}${if_match ${exec date +"%M"} == 7}${color}\
+${else}${if_match ${exec date +"%M"} == 25}${color}\
+${else}${if_match ${exec date +"%M"} == 35}${color}\
+${else}${if_match ${exec date +"%M"} == 45}${color}\
+${else}${if_match ${exec date +"%M"} == 55}${color}\
+${else}${if_match ${exec date +"%M"} == 17}${color}\
+${else}${if_match ${exec date +"%M"} == 27}${color}\
+${else}${if_match ${exec date +"%M"} == 37}${color}\
+${else}${if_match ${exec date +"%M"} == 47}${color}\
+${else}${if_match ${exec date +"%M"} == 57}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}${endif}E \
+${if_match ${exec date +"%M"} == 6}${color}\
+${else}${if_match ${exec date +"%M"} == 16}${color}\
+${else}${if_match ${exec date +"%M"} == 26}${color}\
+${else}${if_match ${exec date +"%M"} == 36}${color}\
+${else}${if_match ${exec date +"%M"} == 46}${color}\
+${else}${if_match ${exec date +"%M"} == 56}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}X \
+${if_match ${exec date +"%M"} == 8}${color}\
+${else}${if_match ${exec date +"%M"} == 18}${color}\
+${else}${if_match ${exec date +"%M"} == 28}${color}\
+${else}${if_match ${exec date +"%M"} == 38}${color}\
+${else}${if_match ${exec date +"%M"} == 48}${color}\
+${else}${if_match ${exec date +"%M"} == 58}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}H \
+${if_match ${exec date +"%M"} == 7}${color}\
+${else}${if_match ${exec date +"%M"} == 17}${color}\
+${else}${if_match ${exec date +"%M"} == 27}${color}\
+${else}${if_match ${exec date +"%M"} == 37}${color}\
+${else}${if_match ${exec date +"%M"} == 47}${color}\
+${else}${if_match ${exec date +"%M"} == 57}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}N \
+${if_match ${exec date +"%M"} == 18}${color}\
+${else}${color1}${endif}- \
+${if_match ${exec date +"%M"} == 8}${color}\
+${else}${if_match ${exec date +"%M"} == 28}${color}\
+${else}${if_match ${exec date +"%M"} == 38}${color}\
+${else}${if_match ${exec date +"%M"} == 48}${color}\
+${else}${if_match ${exec date +"%M"} == 58}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}T \
+${color1}P \
+
+${alignc}\
+${if_match ${exec date +"%M"} == 4}${color}\
+${else}${if_match ${exec date +"%M"} == 14}${color}\
+${else}${if_match ${exec date +"%M"} == 24}${color}\
+${else}${if_match ${exec date +"%M"} == 34}${color}\
+${else}${if_match ${exec date +"%M"} == 44}${color}\
+${else}${if_match ${exec date +"%M"} == 54}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}F \
+${if_match ${exec date +"%M"} == 3}${color}\
+${else}${if_match ${exec date +"%M"} == 23}${color}\
+${else}${if_match ${exec date +"%M"} == 33}${color}\
+${else}${if_match ${exec date +"%M"} == 43}${color}\
+${else}${if_match ${exec date +"%M"} == 53}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}T \
+${color1}W \
+${if_match ${exec date +"%M"} == 4}${color}\
+${else}${if_match ${exec date +"%M"} == 14}${color}\
+${else}${if_match ${exec date +"%M"} == 24}${color}\
+${else}${if_match ${exec date +"%M"} == 34}${color}\
+${else}${if_match ${exec date +"%M"} == 44}${color}\
+${else}${if_match ${exec date +"%M"} == 54}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}O \
+${if_match ${exec date +"%M"} == 3}${color}\
+${else}${if_match ${exec date +"%M"} == 23}${color}\
+${else}${if_match ${exec date +"%M"} == 33}${color}\
+${else}${if_match ${exec date +"%M"} == 43}${color}\
+${else}${if_match ${exec date +"%M"} == 53}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}H \
+${if_match ${exec date +"%M"} == 9}${color}\
+${else}${if_match ${exec date +"%M"} == 19}${color}\
+${else}${if_match ${exec date +"%M"} == 29}${color}\
+${else}${if_match ${exec date +"%M"} == 39}${color}\
+${else}${if_match ${exec date +"%M"} == 49}${color}\
+${else}${if_match ${exec date +"%M"} == 59}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}N \
+${if_match ${exec date +"%M"} == 4}${color}\
+${else}${if_match ${exec date +"%M"} == 14}${color}\
+${else}${if_match ${exec date +"%M"} == 24}${color}\
+${else}${if_match ${exec date +"%M"} == 34}${color}\
+${else}${if_match ${exec date +"%M"} == 44}${color}\
+${else}${if_match ${exec date +"%M"} == 54}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}U \
+${if_match ${exec date +"%M"} == 3}${color}\
+${else}${if_match ${exec date +"%M"} == 23}${color}\
+${else}${if_match ${exec date +"%M"} == 33}${color}\
+${else}${if_match ${exec date +"%M"} == 43}${color}\
+${else}${if_match ${exec date +"%M"} == 53}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}R \
+${if_match ${exec date +"%M"} == 9}${color}\
+${else}${if_match ${exec date +"%M"} == 19}${color}\
+${else}${if_match ${exec date +"%M"} == 29}${color}\
+${else}${if_match ${exec date +"%M"} == 39}${color}\
+${else}${if_match ${exec date +"%M"} == 49}${color}\
+${else}${if_match ${exec date +"%M"} == 59}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}I \
+${if_match ${exec date +"%M"} == 4}${color}\
+${else}${if_match ${exec date +"%M"} == 14}${color}\
+${else}${if_match ${exec date +"%M"} == 24}${color}\
+${else}${if_match ${exec date +"%M"} == 34}${color}\
+${else}${if_match ${exec date +"%M"} == 44}${color}\
+${else}${if_match ${exec date +"%M"} == 54}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}R \
+${if_match ${exec date +"%M"} == 3}${color}\
+${else}${if_match ${exec date +"%M"} == 23}${color}\
+${else}${if_match ${exec date +"%M"} == 33}${color}\
+${else}${if_match ${exec date +"%M"} == 43}${color}\
+${else}${if_match ${exec date +"%M"} == 53}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}E \
+${if_match ${exec date +"%M"} == 9}${color}\
+${else}${if_match ${exec date +"%M"} == 19}${color}\
+${else}${if_match ${exec date +"%M"} == 29}${color}\
+${else}${if_match ${exec date +"%M"} == 39}${color}\
+${else}${if_match ${exec date +"%M"} == 49}${color}\
+${else}${if_match ${exec date +"%M"} == 59}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}N \
+${color1}M \
+${if_match ${exec date +"%M"} == 3}${color}\
+${else}${if_match ${exec date +"%M"} == 23}${color}\
+${else}${if_match ${exec date +"%M"} == 33}${color}\
+${else}${if_match ${exec date +"%M"} == 43}${color}\
+${else}${if_match ${exec date +"%M"} == 53}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}E \
+${if_match ${exec date +"%M"} == 9}${color}\
+${else}${if_match ${exec date +"%M"} == 19}${color}\
+${else}${if_match ${exec date +"%M"} == 29}${color}\
+${else}${if_match ${exec date +"%M"} == 39}${color}\
+${else}${if_match ${exec date +"%M"} == 49}${color}\
+${else}${if_match ${exec date +"%M"} == 59}${color}\
+${else}${color1}${endif}${endif}${endif}${endif}${endif}${endif}E \
+${color1}J \
+
+
+${alignc}\
+${if_match ${exec date +"%M"} == 13}${color}\
+${else}${color1}${endif}T \
+${color1}\
+${if_match ${exec date +"%M"} == 15}${color}\
+${else}${color1}${endif}F \
+${color1}\
+${if_match ${exec date +"%M"} == 13}${color}\
+${else}${color1}${endif}H \
+${color1}\
+${if_match ${exec date +"%M"} == 15}${color}\
+${else}${color1}${endif}I \
+${color1}\
+${if_match ${exec date +"%M"} == 13}${color}\
+${else}${color1}${endif}I \
+${color1}\
+${if_match ${exec date +"%M"} == 15}${color}\
+${else}${color1}${endif}F \
+${color1}\
+${if_match ${exec date +"%M"} == 13}${color}\
+${else}${color1}${endif}R \
+${color1}W \
+${if_match ${exec date +"%M"} > 12}${if_match ${exec date +"%M"} < 20}${color}${else}${color1}${endif}${endif}T \
+${color1}X \
+${if_match ${exec date +"%M"} > 12}${if_match ${exec date +"%M"} < 20}${color}${else}${color1}${endif}${endif}E \
+${color1}Y \
+${if_match ${exec date +"%M"} > 12}${if_match ${exec date +"%M"} < 20}${color}${else}${color1}${endif}${endif}E \
+${color1}Z \
+${if_match ${exec date +"%M"} > 12}${if_match ${exec date +"%M"} < 20}${color}${else}${color1}${endif}${endif}N \
+${color1}H \
