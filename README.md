@@ -1,5 +1,4 @@
-# Word-clock-updated-every-minute-
-Word clock (updated every minute)
+# Worded-clock-updated-every-minute-
 
 1. Install conky >> sudo apt install conky
 
