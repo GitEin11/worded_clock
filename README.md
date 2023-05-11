@@ -1,5 +1,7 @@
 # Worded-clock-updated-every-minute-
 
+worded clock based on this work https://github.com/digitalformula/qclocktwo but instead of being updated by multiples of 5 and puzzling over the words on what the actual time is, this one that I made updates every minute
+
 1. Install conky >> sudo apt install conky
 
 2. run this two conky script
