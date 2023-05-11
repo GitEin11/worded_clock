@@ -1,4 +1,4 @@
-# Worded-clock-updated-every-minute-
+# Worded clock
 
 worded clock based on this https://www.deviantart.com/mowgli-writes/art/qlocktwo-conky-470067388 but instead of being updated by multiples of 5 and puzzling over the words on what the actual time is, this one that I made updates every minute
 
