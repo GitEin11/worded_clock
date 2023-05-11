@@ -10,7 +10,7 @@ sudo apt install conky
 ```
 conky -p 1 -c /PATH_TO_THIS_FILE/conky1 & conky -p 1 -c /PATH_TO_THIS_FILE/conky2 & exit
 ```
-for window user install rainmeter and use "Word clock.ini"
+for window user install rainmeter and use "Worded clock.ini"
 
 I made the conky script seperately, for some reason if its combined to 1 file, it glitches
 
