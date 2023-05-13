@@ -19,4 +19,5 @@ I made the conky script seperately, for some reason if its combined to 1 file, i
 ![49](https://github.com/GitEin11/Word-clock-updated-every-minute-/assets/84138811/3e98ace0-3d92-4b3b-b2eb-3eb7a4646828)
 
 
-https://github.com/GitEin11/Worded_clock/assets/84138811/9a9846d6-2d4e-43bc-bcb0-6f6b41fc6532
+https://github.com/GitEin11/Worded_clock/assets/84138811/e5534638-8c2f-414e-ba0c-ca41f1cf425a
+
