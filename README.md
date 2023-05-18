@@ -8,7 +8,7 @@ sudo apt install conky
 ```
 2. run this two conky script
 ```
-conky -p 1 -c /PATH_TO_THIS_FILE/conky1 & conky -p 1 -c /PATH_TO_THIS_FILE/conky2 & exit
+make run_conky.sh executable and run it. (run_conky.sh and both conky1/2 must be in the same folder)
 ```
 for window user install rainmeter and use "Worded clock.ini"
 
