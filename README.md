@@ -6,7 +6,7 @@ worded clock based on this https://www.deviantart.com/mowgli-writes/art/qlocktwo
 ```
 sudo apt install conky
 ```
-2. run this two conky script
+2. you can use this script and add it to your startup
 ```
 make run_conky.sh executable and run it. (run_conky.sh and both conky1/2 must be in the same folder)
 ```
