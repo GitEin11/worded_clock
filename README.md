@@ -10,10 +10,8 @@ sudo apt install conky
 ```
 make run_conky.sh executable and run it. (run_conky.sh and both conky1/2 must be in the same folder)
 ```
-```
-Make sure you have installed font DejaVu Sans Mono, or any font that is monospace but do edit that on the configuration of conky1/2 or worded_clock.ini according to your font
+>Make sure you have installed font DejaVu Sans Mono, or any font that is monospace but do edit that on the configuration of conky1/2 or worded_clock.ini according to your font
 for window user install rainmeter and use "Worded clock.ini"
-```
 
 I made the conky script seperately, for some reason if its combined to 1 file, it glitches
 
