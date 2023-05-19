@@ -11,8 +11,8 @@ sudo apt install conky
 make worded_clock.sh executable (worded_clock.sh and both worded_clock1/2 must be in the same folder)
 ```
 >Make sure you have installed font DejaVu Sans Mono, or any font that is monospace but do edit that on the configuration of worded_clock1/2 or worded_clock.ini according to your font
-for window user install rainmeter and use "Worded clock.ini"
-I made the conky script seperately, for some reason if its combined to 1 file, it glitches
+>for window user install rainmeter and use "Worded clock.ini"
+>I made the conky script seperately, for some reason if its combined to 1 file, it glitches
 
 ![48](https://github.com/GitEin11/Word-clock-updated-every-minute-/assets/84138811/2d86f019-e40f-4333-b4db-99e60a5471a4)
 
