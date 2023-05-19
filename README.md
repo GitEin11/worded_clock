@@ -12,7 +12,7 @@ make worded_clock.sh executable (worded_clock.sh and both worded_clock1/2 must b
 ```
 >Make sure you have installed font DejaVu Sans Mono, or any font that is monospace but do edit that on the configuration of worded_clock1/2 or worded_clock.ini according to your font
 >
->for window user install rainmeter and use "Worded clock.ini"
+>for window user install rainmeter and use "worded_clock.ini"
 >
 >I made the conky script seperately, for some reason if its combined to 1 file, it glitches
 
