@@ -1,4 +1,4 @@
-# Worded clock
+# worded clock
 
 worded clock based on this https://www.deviantart.com/mowgli-writes/art/qlocktwo-conky-470067388 but instead of being updated by multiples of 5 and puzzling over the words on what the actual time is, this one that I made updates every minute, if you have sugestion on a better arrangement of the letter just message me. I put alot of effort figuring the most optimized matrix hehe
 
@@ -10,9 +10,10 @@ sudo apt install conky
 ```
 make run_conky.sh executable and run it. (run_conky.sh and both conky1/2 must be in the same folder)
 ```
+```
 Make sure you have installed font DejaVu Sans Mono, or any font that is monospace but do edit that on the configuration of conky1/2 or worded_clock.ini according to your font
-
 for window user install rainmeter and use "Worded clock.ini"
+```
 
 I made the conky script seperately, for some reason if its combined to 1 file, it glitches
 
