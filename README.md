@@ -1,6 +1,7 @@
 # worded clock
 
-worded clock based on this https://www.deviantart.com/mowgli-writes/art/qlocktwo-conky-470067388 but instead of being updated by multiples of 5 and puzzling over the words on what the actual time is, this one that I made updates every minute, if you have sugestion on a better arrangement of the letter just message me. I put alot of effort figuring the most optimized matrix hehe
+This is a worded clock inspired by [qlocktwo conky] by Mowgli-writes. Unlike the original version, which updates every five minutes and uses ambiguous words to show the time, my version updates every minute and uses clear words to show the exact time. I spent a lot of effort figuring out the most optimized matrix for the letters. If you have any suggestions for a better arrangement of the letters, please message me. I hope you like it! 😊
+
 
 1. Install conky
 ```
