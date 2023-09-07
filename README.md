@@ -23,3 +23,12 @@ make worded_clock.sh executable (worded_clock.sh and both worded_clock1/2 must b
 
 
 https://github.com/GitEin11/Worded_clock/assets/84138811/e5534638-8c2f-414e-ba0c-ca41f1cf425a
+
+
+if your interested in making a matrix for month
+you can use this, I'm too lazy to do it now. If you have a better matrix, feel free to recommend, my brain is hurting just trying to solve it heheheh.
+
+![month matrix](https://github.com/GitEin11/worded_clock/assets/84138811/8eb9df08-415e-458d-8705-e9e5a1417bc6)
+
+
+
