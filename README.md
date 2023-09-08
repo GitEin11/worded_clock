@@ -28,7 +28,8 @@ https://github.com/GitEin11/Worded_clock/assets/84138811/e5534638-8c2f-414e-ba0c
 if your interested in making a matrix for month
 you can use this, I'm too lazy to do it now. If you have a better matrix, feel free to recommend, my brain is hurting just trying to solve it heheheh.
 
-![month matrix](https://github.com/GitEin11/worded_clock/assets/84138811/8eb9df08-415e-458d-8705-e9e5a1417bc6)
 
+
+![Untitled](https://github.com/GitEin11/worded_clock/assets/84138811/37af320a-06d6-4f18-905a-a684d932bee1)
 
 
